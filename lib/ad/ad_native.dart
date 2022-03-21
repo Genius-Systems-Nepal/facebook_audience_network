@@ -281,7 +281,7 @@ class _FacebookNativeAdState extends State<FacebookNativeAd>
       '#${color.value.toRadixString(16)}';
 
   void _onNativeAdViewCreated(int id) {
-    final channel = MethodChannel('${NATIVE_AD_CHANNEL}_$id');
+    final channel = MethodChannel('${_getChannelRegisterId}_$id');
 
     channel.setMethodCallHandler((MethodCall call) {
       switch (call.method) {
