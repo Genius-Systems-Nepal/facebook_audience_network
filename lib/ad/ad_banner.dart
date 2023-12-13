@@ -82,7 +82,7 @@ class FacebookBannerAd extends StatefulWidget {
 
 class _FacebookBannerAdState extends State<FacebookBannerAd>
     with AutomaticKeepAliveClientMixin {
-  double containerHeight = 0.5;
+  double containerHeight = 0;
 
   @override
   bool get wantKeepAlive => widget.keepAlive;
