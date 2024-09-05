@@ -34,7 +34,7 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.lifecycle:lifecycle-runtime:2.8.4'
+    implementation 'androidx.lifecycle:lifecycle-runtime:2.7.0'
     implementation 'com.facebook.android:audience-network-sdk:6.17.0'
     implementation 'androidx.annotation:annotation:1.8.2'
     compileOnly files('tempLibs/flutter.jar')
